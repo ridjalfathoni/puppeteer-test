@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "D:/Dev/puppeteer-test1/node_modules/mocha/bin/mocha --timeout=30000 /tests",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.2.2",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "random-name": "^0.1.2"
+  }
+}
